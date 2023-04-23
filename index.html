@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Game | Oni</title>
 </head>
 <body>
-    
+    <div class="health" id="healthContainer">
+        <p class="health" id="healthText">Health:</p>
+        <p id="healthNumber">100</p>
+    </div>
+    <div class="boss" id="bossContainer">
+        <p class="boss" id="bossText">Boss:</p>
+        <div class="boss" id="bossEntity"></div>
+    </div>
+    <div class="attack" id="attackContainer">
+        <p class="attack" id="attackText">Attack</p>
+        <input type="button" class="attack" id="attackButton" value="Hit">
+        <p class="attack" id="respawnText">Respawn</p>
+        <input type="button" class="attack" id="respawnButton" value="Respawn">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

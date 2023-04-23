@@ -1,3 +1,76 @@
+* {
+    color: aqua;
+    font-family: 'Ysabeau', sans-serif;
+}
 body{
-    background-color: rgb(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#healthContainer {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+#healthText {
+    margin: 10px 0px 0px 0px;
+}
+#healthNumber {
+    font-size: 40px;
+    margin: 0%;
+}
+
+#bossContainer {
+    width: 500px;
+    margin: 70px auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+#bossEntity {
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px 30px 20px 30px;
+    height: 200px;
+    border-color: aqua;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#attackContainer {
+    width: 500px;
+    margin: 70px auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+#attackButton {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-color: aqua;
+    margin-bottom: 15px;
+}
+#attackButton:hover {
+    background-color: aqua;
+    color: black;
+    font-weight: 900;
+}
+#respawnButton {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-color: aqua;
+    margin-bottom: 15px;
+}
+#respawnButton:hover {
+    background-color: aqua;
+    color: black;
+    font-weight: 900;
 }
