@@ -40,6 +40,7 @@ body{
 }
 
 #attackContainer {
+    position: static;
     width: 500px;
     margin: 70px auto;
     text-align: center;
@@ -55,6 +56,8 @@ body{
     border-style: solid;
     border-color: aqua;
     margin-bottom: 15px;
+    margin-top: 10px;
+    align-items: center;
 }
 #attackButton:hover {
     background-color: aqua;
@@ -62,15 +65,21 @@ body{
     font-weight: 900;
 }
 #respawnButton {
+    position: relative;
+    left: -7.8px;
     background-color: rgba(0, 0, 0, 0);
     width: 100px;
     height: 30px;
     border-style: solid;
     border-color: aqua;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 #respawnButton:hover {
     background-color: aqua;
     color: black;
     font-weight: 900;
+}
+#respawnText {
+    position: relative;
+    left: -7.8px;
 }
